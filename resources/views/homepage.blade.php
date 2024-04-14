@@ -1,4 +1,4 @@
-@extends('layousts.master')
+@extends('layouts.master')
 @section('title', 'Anasayfa')
 <div class="container">
     <div class="row">
@@ -157,4 +157,3 @@
     </div>
 </div>
     
-@endsection
