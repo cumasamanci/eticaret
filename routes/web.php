@@ -14,3 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'HomepageController@index')->name('homepage');
+Route::get('/collections/{slug_kategoriadi}','KategoriController@index')->name('kategori');
+Route::get('/products', 'urun');
+Route::get('/cart', 'sepet');
+
